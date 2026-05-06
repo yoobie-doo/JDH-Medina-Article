@@ -14,11 +14,8 @@ code: 31
 **total cells: 90**
 ## Kernel Checks: 
 
-> [!CAUTION]
- > Error: Python versions don't match. The notebook is using **python-3.11.9**, when **Python 3.11** is required.
+Python versions match :white_check_mark:
 
-> [!TIP]
- > Try changing **runtime.txt** to resolve the error above.
 
 ### Citations Not Found
 
@@ -94,6 +91,7 @@ Total number of audios: 7
 
 
 ### Check HTML
+- Cell 4 - Encountered a start tag: kara
 - Cell 9 - Encountered a start tag: a
 - Cell 9 - Encountered an end tag: a
 - Cell 9 - Encountered a start tag: a
@@ -222,12 +220,14 @@ Total number of audios: 7
 - Cell 46 - Encountered an end tag: a
 - Cell 59 - Encountered a start tag: a
 - Cell 59 - Encountered an end tag: a
-- Cell 67 - Encountered a start tag: figure-input_df-*
+- Cell 67 - Encountered a start tag: figure-inputdf-*
+- Cell 67 - Encountered an end tag: figure-inputdf-*
 - Cell 68 - Encountered a start tag: a
 - Cell 68 - Encountered an end tag: a
 - Cell 68 - Encountered a start tag: a
 - Cell 68 - Encountered an end tag: a
 - Cell 76 - Encountered a start tag: table-isnadtree-*
+- Cell 76 - Encountered an end tag: table-isnadtree-*
 - Cell 86 - Encountered a start tag: a
 - Cell 86 - Encountered an end tag: a
 - Cell 86 - Encountered a start tag: a
