@@ -30,15 +30,13 @@ jobs:
           file_pattern: '*.md'
       - name: Run shell cmd
         run: echo "https://github.com/${{github.repository}}/commit/${{github.sha}}/checks/${{github.run_id}}"
-        
-      - name: Debug: Find report.md
+      - name: Debug Find report.md
         run: |
           echo "Searching for report.md..."
           find . -name "report.md" -type f -exec ls -la {} \;
           echo "Repo root contents:"
           ls -la *.md 2>/dev/null || echo "No .md files in root"
-
-      - name: 🔍 Debug: Show git status
+      - name: Debug Show git status
         run: |
           echo "Git status:"
           git status --short
