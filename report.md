@@ -86,11 +86,11 @@ Total number of audios: 7
 | image/png | 72 | Correct tagging |
 | image/png | 74 | Correct tagging |
 | image/png | 74 | Correct tagging |
-| image/png | 77 | Image is not tagged properly [Check here ](https://journalofdigitalhistory.org/en/notebook-viewer/JTJGcHJveHktZ2l0aHVidXNlcmNvbnRlbnQlMkZ5b29iaWUtZG9vJTJGSkRILU1lZGluYS1BcnRpY2xlJTJGbWFpbiUyRmFydGljbGUuaXB5bmI=?idx=77) |
-| image/png | 80 | Image is not tagged properly [Check here ](https://journalofdigitalhistory.org/en/notebook-viewer/JTJGcHJveHktZ2l0aHVidXNlcmNvbnRlbnQlMkZ5b29iaWUtZG9vJTJGSkRILU1lZGluYS1BcnRpY2xlJTJGbWFpbiUyRmFydGljbGUuaXB5bmI=?idx=80) |
-| image/png | 83 | Image is not tagged properly [Check here ](https://journalofdigitalhistory.org/en/notebook-viewer/JTJGcHJveHktZ2l0aHVidXNlcmNvbnRlbnQlMkZ5b29iaWUtZG9vJTJGSkRILU1lZGluYS1BcnRpY2xlJTJGbWFpbiUyRmFydGljbGUuaXB5bmI=?idx=83) |
-| image/png | 85 | Image is not tagged properly [Check here ](https://journalofdigitalhistory.org/en/notebook-viewer/JTJGcHJveHktZ2l0aHVidXNlcmNvbnRlbnQlMkZ5b29iaWUtZG9vJTJGSkRILU1lZGluYS1BcnRpY2xlJTJGbWFpbiUyRmFydGljbGUuaXB5bmI=?idx=85) |
-| image/png | 87 | Image is not tagged properly [Check here ](https://journalofdigitalhistory.org/en/notebook-viewer/JTJGcHJveHktZ2l0aHVidXNlcmNvbnRlbnQlMkZ5b29iaWUtZG9vJTJGSkRILU1lZGluYS1BcnRpY2xlJTJGbWFpbiUyRmFydGljbGUuaXB5bmI=?idx=87) |
+| image/png | 77 | Correct tagging |
+| image/png | 80 | Correct tagging |
+| image/png | 83 | Correct tagging |
+| image/png | 85 | Correct tagging |
+| image/png | 87 | Correct tagging |
 
 
 ### Check HTML
@@ -591,12 +591,8 @@ No JavaScript code found in output cells.
 - Cell 44: Tags: ['hermeneutics']
 - Cell 45: Tags: ['hermeneutics']
 - Cell 46: Tags: ['hermeneutics']
-- Cell 47: Tags: ['figure-identifier-isnadtree']
-  - Invalid tag: figure-identifier-isnadtree
-- Cell 48: Tags: ['table-input_df-*']
-  - Invalid tag: table-input_df-*
-- Cell 49: Tags: ['hermeneutics', 'table-collation_df-*']
-  - Invalid tag: table-collation_df-*
+- Cell 48: Tags: ['table-inputdf-*']
+- Cell 49: Tags: ['hermeneutics', 'table-collationdf-*']
 - Cell 50: Tags: ['hermeneutics']
 - Cell 51: Tags: ['hermeneutics']
 - Cell 52: Tags: ['hermeneutics']
@@ -615,13 +611,13 @@ No JavaScript code found in output cells.
 - Cell 71: Tags: ['figure-arSTSMatrix-*']
 - Cell 72: Tags: ['figure-arStructMatrix-*']
 - Cell 74: Tags: ['figure-dendrograms-*']
-> [!WARNING]
-> The following tags are missing or invalid
+- Cell 77: Tags: ['table-isnadtreeAbbr-*']
+- Cell 80: Tags: ['table-v456Arabic-*']
+- Cell 83: Tags: ['table-v19Arabic-*']
+- Cell 85: Tags: ['figure-procV1V9Dendrogram-*']
+- Cell 87: Tags: ['figure-procV1V9DendrogramB2H-*']
 
-#### Invalid Tags:
-- figure-identifier-isnadtree
-- table-input_df-*
-- table-collation_df-*
+All mandatory tags are present in the cells.
 > Make sure to fill this template document [license_to_publish_JDH.dotx](https://github.com/C2DH/journal-of-digital-history-ipynb-preflight-action/blob/master/license_to_publish_JDH.dotx) and send it to jdh.admin@uni.lu
 
 

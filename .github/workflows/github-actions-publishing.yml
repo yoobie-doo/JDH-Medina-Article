@@ -1,6 +1,10 @@
 on: [workflow_dispatch]
 
 name: GitHub Actions Ipynb for publishing
+
+permissions:
+  contents: write 
+  
 jobs:
   ipynb_for_publishing:
     runs-on: ubuntu-latest
