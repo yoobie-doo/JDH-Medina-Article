@@ -1,6 +1,8 @@
 on: [workflow_dispatch]
 
 name: GitHub Actions Ipynb for preflight
+permissions:
+  contents: write
 jobs:
   preflight:
     runs-on: ubuntu-latest
