@@ -16,3 +16,4 @@ sentence-transformers==5.4.1
 six==1.16.0
 torch==2.2.1+cpu
 torchvision==0.17.1+cpu
+plotly==6.7
